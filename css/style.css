@@ -1,0 +1,12 @@
+    .card-content>.center-align>img {
+        object-fit: contain;
+    }
+    
+    .card {
+        height: auto;
+    }
+    
+    .cardteam img {
+        height: 70px;
+        width: 70px;
+    }
