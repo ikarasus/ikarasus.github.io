@@ -14,5 +14,6 @@
     "license": "ISC",
     "dependencies": {
         "web-push": "^3.4.4"
-    }
+    },
+    "devDependencies": {}
 }
