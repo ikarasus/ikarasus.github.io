@@ -114,12 +114,10 @@ workbox.precaching.precacheAndRoute([{
     {
         url: '/css/webfonts/fa-solid-900.ttf',
         revision: '1'
-    },
-
-
-    ,
-
-]);
+    }
+], {
+    ignoreUrlParametersMatching: [/.*/]
+});
 
 workbox.routing.registerRoute(
     new RegExp('/pages/'),
